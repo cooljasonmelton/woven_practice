@@ -1,0 +1,2 @@
+class RecyclingEntriesController < ApplicationController
+end
