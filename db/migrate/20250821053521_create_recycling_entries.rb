@@ -1,4 +1,4 @@
-class CreateRecyclingEntries < ActiveRecord::Migration[8.0]
+userclass CreateRecyclingEntries < ActiveRecord::Migration[8.0]
   def change
     create_table :recycling_entries do |t|
       t.references :user, null: false, foreign_key: true

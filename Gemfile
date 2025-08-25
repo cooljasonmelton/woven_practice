@@ -44,4 +44,14 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+
+  gem "rspec-rails"
+  # Optional but recommended gems:
+  gem "factory_bot_rails"  # For creating test data
+  gem "shoulda-matchers"   # For additional matchers
+end
+
+group :development do
+  gem "ruby-lsp", require: false
 end
